@@ -18,7 +18,7 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1660755548,,"x"
+|2,0,1660755801,,"x"
 :q
 |2,0,1660754674,,"q"
 :w
@@ -72,40 +72,60 @@ $
 |3,1,36,0,1,0,1660755473,"8"
 
 # File marks:
-'0  29  33  /tmp/kubectl-edit-2082953496.yaml
-|4,48,29,33,1660755549,"/tmp/kubectl-edit-2082953496.yaml"
-'1  29  25  /tmp/kubectl-edit-647233337.yaml
-|4,49,29,25,1660755475,"/tmp/kubectl-edit-647233337.yaml"
-'2  28  31  /tmp/kubectl-edit-1140369061.yaml
-|4,50,28,31,1660755370,"/tmp/kubectl-edit-1140369061.yaml"
-'3  42  22  ~/ds2.yaml
-|4,51,42,22,1660755278,"~/ds2.yaml"
-'4  48  2  /tmp/kubectl-edit-3443191977.yaml
-|4,52,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
-'5  46  17  /tmp/kubectl-edit-1156131166.yaml
-|4,53,46,17,1660751435,"/tmp/kubectl-edit-1156131166.yaml"
-'6  8  43  ~/ds.yaml
-|4,54,8,43,1660751261,"~/ds.yaml"
-'7  12  48  ~/ds.yaml
-|4,55,12,48,1660751113,"~/ds.yaml"
+'0  4  4  ~/.gitignore
+|4,48,4,4,1660755801,"~/.gitignore"
+'1  29  33  /tmp/kubectl-edit-2082953496.yaml
+|4,49,29,33,1660755549,"/tmp/kubectl-edit-2082953496.yaml"
+'2  29  25  /tmp/kubectl-edit-647233337.yaml
+|4,50,29,25,1660755475,"/tmp/kubectl-edit-647233337.yaml"
+'3  28  31  /tmp/kubectl-edit-1140369061.yaml
+|4,51,28,31,1660755370,"/tmp/kubectl-edit-1140369061.yaml"
+'4  42  22  ~/ds2.yaml
+|4,52,42,22,1660755278,"~/ds2.yaml"
+'5  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,53,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+'6  46  17  /tmp/kubectl-edit-1156131166.yaml
+|4,54,46,17,1660751435,"/tmp/kubectl-edit-1156131166.yaml"
+'7  8  43  ~/ds.yaml
+|4,55,8,43,1660751261,"~/ds.yaml"
 '8  12  48  ~/ds.yaml
 |4,56,12,48,1660751113,"~/ds.yaml"
-'9  1  0  ~/ds
-|4,57,1,0,1660751076,"~/ds"
+'9  12  48  ~/ds.yaml
+|4,57,12,48,1660751113,"~/ds.yaml"
 
 # Jumplist (newest first):
+-'  4  4  ~/.gitignore
+|4,39,4,4,1660755801,"~/.gitignore"
+-'  2  0  ~/.gitignore
+|4,39,2,0,1660755767,"~/.gitignore"
 -'  29  33  /tmp/kubectl-edit-2082953496.yaml
 |4,39,29,33,1660755549,"/tmp/kubectl-edit-2082953496.yaml"
+-'  29  33  /tmp/kubectl-edit-2082953496.yaml
+|4,39,29,33,1660755549,"/tmp/kubectl-edit-2082953496.yaml"
+-'  1  0  /tmp/kubectl-edit-2082953496.yaml
+|4,39,1,0,1660755522,"/tmp/kubectl-edit-2082953496.yaml"
 -'  1  0  /tmp/kubectl-edit-2082953496.yaml
 |4,39,1,0,1660755522,"/tmp/kubectl-edit-2082953496.yaml"
 -'  29  25  /tmp/kubectl-edit-647233337.yaml
 |4,39,29,25,1660755475,"/tmp/kubectl-edit-647233337.yaml"
 -'  29  25  /tmp/kubectl-edit-647233337.yaml
 |4,39,29,25,1660755475,"/tmp/kubectl-edit-647233337.yaml"
+-'  29  25  /tmp/kubectl-edit-647233337.yaml
+|4,39,29,25,1660755475,"/tmp/kubectl-edit-647233337.yaml"
+-'  29  25  /tmp/kubectl-edit-647233337.yaml
+|4,39,29,25,1660755475,"/tmp/kubectl-edit-647233337.yaml"
 -'  38  0  /tmp/kubectl-edit-647233337.yaml
 |4,39,38,0,1660755468,"/tmp/kubectl-edit-647233337.yaml"
 -'  38  0  /tmp/kubectl-edit-647233337.yaml
 |4,39,38,0,1660755468,"/tmp/kubectl-edit-647233337.yaml"
+-'  38  0  /tmp/kubectl-edit-647233337.yaml
+|4,39,38,0,1660755468,"/tmp/kubectl-edit-647233337.yaml"
+-'  38  0  /tmp/kubectl-edit-647233337.yaml
+|4,39,38,0,1660755468,"/tmp/kubectl-edit-647233337.yaml"
+-'  1  0  /tmp/kubectl-edit-647233337.yaml
+|4,39,1,0,1660755455,"/tmp/kubectl-edit-647233337.yaml"
+-'  1  0  /tmp/kubectl-edit-647233337.yaml
+|4,39,1,0,1660755455,"/tmp/kubectl-edit-647233337.yaml"
 -'  1  0  /tmp/kubectl-edit-647233337.yaml
 |4,39,1,0,1660755455,"/tmp/kubectl-edit-647233337.yaml"
 -'  1  0  /tmp/kubectl-edit-647233337.yaml
@@ -118,6 +138,22 @@ $
 |4,39,28,31,1660755370,"/tmp/kubectl-edit-1140369061.yaml"
 -'  28  31  /tmp/kubectl-edit-1140369061.yaml
 |4,39,28,31,1660755370,"/tmp/kubectl-edit-1140369061.yaml"
+-'  28  31  /tmp/kubectl-edit-1140369061.yaml
+|4,39,28,31,1660755370,"/tmp/kubectl-edit-1140369061.yaml"
+-'  28  31  /tmp/kubectl-edit-1140369061.yaml
+|4,39,28,31,1660755370,"/tmp/kubectl-edit-1140369061.yaml"
+-'  28  31  /tmp/kubectl-edit-1140369061.yaml
+|4,39,28,31,1660755370,"/tmp/kubectl-edit-1140369061.yaml"
+-'  28  31  /tmp/kubectl-edit-1140369061.yaml
+|4,39,28,31,1660755370,"/tmp/kubectl-edit-1140369061.yaml"
+-'  1  0  /tmp/kubectl-edit-1140369061.yaml
+|4,39,1,0,1660755364,"/tmp/kubectl-edit-1140369061.yaml"
+-'  1  0  /tmp/kubectl-edit-1140369061.yaml
+|4,39,1,0,1660755364,"/tmp/kubectl-edit-1140369061.yaml"
+-'  1  0  /tmp/kubectl-edit-1140369061.yaml
+|4,39,1,0,1660755364,"/tmp/kubectl-edit-1140369061.yaml"
+-'  1  0  /tmp/kubectl-edit-1140369061.yaml
+|4,39,1,0,1660755364,"/tmp/kubectl-edit-1140369061.yaml"
 -'  1  0  /tmp/kubectl-edit-1140369061.yaml
 |4,39,1,0,1660755364,"/tmp/kubectl-edit-1140369061.yaml"
 -'  1  0  /tmp/kubectl-edit-1140369061.yaml
@@ -142,6 +178,38 @@ $
 |4,39,42,22,1660755278,"~/ds2.yaml"
 -'  42  22  ~/ds2.yaml
 |4,39,42,22,1660755278,"~/ds2.yaml"
+-'  42  22  ~/ds2.yaml
+|4,39,42,22,1660755278,"~/ds2.yaml"
+-'  42  22  ~/ds2.yaml
+|4,39,42,22,1660755278,"~/ds2.yaml"
+-'  42  22  ~/ds2.yaml
+|4,39,42,22,1660755278,"~/ds2.yaml"
+-'  42  22  ~/ds2.yaml
+|4,39,42,22,1660755278,"~/ds2.yaml"
+-'  42  22  ~/ds2.yaml
+|4,39,42,22,1660755278,"~/ds2.yaml"
+-'  42  22  ~/ds2.yaml
+|4,39,42,22,1660755278,"~/ds2.yaml"
+-'  42  22  ~/ds2.yaml
+|4,39,42,22,1660755278,"~/ds2.yaml"
+-'  42  22  ~/ds2.yaml
+|4,39,42,22,1660755278,"~/ds2.yaml"
+-'  1  0  ~/ds2.yaml
+|4,39,1,0,1660755250,"~/ds2.yaml"
+-'  1  0  ~/ds2.yaml
+|4,39,1,0,1660755250,"~/ds2.yaml"
+-'  1  0  ~/ds2.yaml
+|4,39,1,0,1660755250,"~/ds2.yaml"
+-'  1  0  ~/ds2.yaml
+|4,39,1,0,1660755250,"~/ds2.yaml"
+-'  1  0  ~/ds2.yaml
+|4,39,1,0,1660755250,"~/ds2.yaml"
+-'  1  0  ~/ds2.yaml
+|4,39,1,0,1660755250,"~/ds2.yaml"
+-'  1  0  ~/ds2.yaml
+|4,39,1,0,1660755250,"~/ds2.yaml"
+-'  1  0  ~/ds2.yaml
+|4,39,1,0,1660755250,"~/ds2.yaml"
 -'  1  0  ~/ds2.yaml
 |4,39,1,0,1660755250,"~/ds2.yaml"
 -'  1  0  ~/ds2.yaml
@@ -190,112 +258,56 @@ $
 |4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
 -'  48  2  /tmp/kubectl-edit-3443191977.yaml
 |4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
+-'  48  2  /tmp/kubectl-edit-3443191977.yaml
+|4,39,48,2,1660754674,"/tmp/kubectl-edit-3443191977.yaml"
 -'  46  4  /tmp/kubectl-edit-3443191977.yaml
 |4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
 -'  46  4  /tmp/kubectl-edit-3443191977.yaml
 |4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  4  /tmp/kubectl-edit-3443191977.yaml
-|4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  4  /tmp/kubectl-edit-3443191977.yaml
-|4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  4  /tmp/kubectl-edit-3443191977.yaml
-|4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  4  /tmp/kubectl-edit-3443191977.yaml
-|4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  4  /tmp/kubectl-edit-3443191977.yaml
-|4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  4  /tmp/kubectl-edit-3443191977.yaml
-|4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  4  /tmp/kubectl-edit-3443191977.yaml
-|4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  4  /tmp/kubectl-edit-3443191977.yaml
-|4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  4  /tmp/kubectl-edit-3443191977.yaml
-|4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  4  /tmp/kubectl-edit-3443191977.yaml
-|4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  4  /tmp/kubectl-edit-3443191977.yaml
-|4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  4  /tmp/kubectl-edit-3443191977.yaml
-|4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  4  /tmp/kubectl-edit-3443191977.yaml
-|4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  4  /tmp/kubectl-edit-3443191977.yaml
-|4,39,46,4,1660754671,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  47  2  /tmp/kubectl-edit-3443191977.yaml
-|4,39,47,2,1660754669,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  1  0  /tmp/kubectl-edit-3443191977.yaml
-|4,39,1,0,1660754663,"/tmp/kubectl-edit-3443191977.yaml"
--'  46  17  /tmp/kubectl-edit-1156131166.yaml
-|4,39,46,17,1660751435,"/tmp/kubectl-edit-1156131166.yaml"
--'  46  17  /tmp/kubectl-edit-1156131166.yaml
-|4,39,46,17,1660751435,"/tmp/kubectl-edit-1156131166.yaml"
--'  46  17  /tmp/kubectl-edit-1156131166.yaml
-|4,39,46,17,1660751435,"/tmp/kubectl-edit-1156131166.yaml"
--'  46  17  /tmp/kubectl-edit-1156131166.yaml
-|4,39,46,17,1660751435,"/tmp/kubectl-edit-1156131166.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1660755799	0
+	"	4	4
+	^	4	5
+	.	4	4
+	+	2	6
+	+	1	1
+	+	2	1
+	+	1	0
+	+	2	7
+	+	4	4
 
 > /tmp/kubectl-edit-2082953496.yaml
 	*	1660755546	0
@@ -389,17 +401,6 @@ $
 	+	17	25
 	+	18	25
 	+	19	25
-
-> ~/.gitignore
-	*	1660750055	0
-	"	2	0
-	^	2	1
-	.	2	0
-	+	2	6
-	+	1	1
-	+	2	1
-	+	1	0
-	+	2	0
 
 > ~/cronjob.yaml
 	*	1657655748	0

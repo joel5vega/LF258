@@ -98,3 +98,8 @@ ip -a
 ip a
 hostname -i
 watch journalctl -xe
+ls
+ls -a
+ip a|grep glob
+hostname
+exit

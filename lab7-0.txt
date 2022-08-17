@@ -1,0 +1,160 @@
+    1  sudo visudo
+    2  vim /etc/sudoers.d
+    3  sudo visudo
+    4  exit
+    5  sudo visudo
+    6  exit
+    7  ip a
+    8  reboot
+    9  exit
+   10  history
+   11  hostname -i
+   12  ip a
+   13  apt-get update -y && apt-get upgrade -y
+   14  sudo -i
+   15  kubectl get nodes
+   16  netstat |grep LISTen
+   17  netstat |grep -I LISTen
+   18  netstat |grep -i LISTen
+   19  sudo apt install net-tools
+   20  netstat |grep -i LISTen
+   21  kubectl get nodes
+   22  ls $HOME
+   23  ls \$HOME/admin.conf
+   24  mkdir -p $HOME/.kube
+   25  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+   26  chown $(id -u):$(id -g) $HOME/.kube/config
+   27  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+   28  kubectl apply -f calico.yaml
+   29  kubectl get nodes
+   30  sudo cat /root/ku*
+   31  ls /root
+   32  sudo ls /root
+   33  sudo cat /root/kubeadm-init.out
+   34  sudo cat /root/kubeadm-init.out |tail -n 2
+   35  sudo cat /root/kubeadm-init.out |tail -n 2 -A 1
+   36  sudo cat /root/kubeadm-init.out |tail -n 2
+   37  sudo tail -n 2 /root/kubeadm-init.out
+   38  ll
+   39  sudo ll /root
+   40  sudo ls -l /root
+   41  date
+   42  tzselect 
+   43  date
+   44  sudo ls -l /root
+   45  reboot
+   46  sudo reboot
+   47  sudo tail -f /root/kubeadm-init.out
+   48  cat /etc/kubernetes/
+   49  ls /etc/kubernetes/
+   50  ls $HOME/.kube
+   51  ll $HOME/.kube
+   52  rm .kube/config
+   53  ll $HOME/.kube
+   54  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+   55  sudo cp  /etc/kubernetes/admin.conf $HOME/.kube/config
+   56  sudo tail -f /root/kubeadm-init.out
+   57  ls /etc/kubernetes/admin.conf 
+   58  sudo tail -f /root/kubeadm-init.out
+   59  kubectl get nodes
+   60  sudo tail -f /root/kubeadm-init.out
+   61  kubectl get nodes
+   62  watch kubectl get nodes
+   63  kubectl reset
+   64  kubeadm reset
+   65  watch kubectl get nodes
+   66  sudo apt remove kubectl
+   67  sudo apt remove kubectl kubeadm kubelet
+   68  sudo apt remove docker
+   69  sudo apt remove docker.io 
+   70  watch kubectl get nodes
+   71  journalctl -xe
+   72  watch journalctl -xe
+   73  sudo systemctl stop docker
+   74  sudo systemctl status docker
+   75  sudo apt remove docker.io
+   76  sudo apt remove docker
+   77  watch journalctl -xe
+   78  hostname -i
+   79  kubectl get nodes
+   80  watch journalctl -xe
+   81  sudo apt remove docker
+   82  systemctl status docker
+   83  reboot
+   84  sudo reboot
+   85  sudo apt remove kubeadm kubelet kubectl docker* -y
+   86  sudo systemctl stop docker
+   87  sudo apt remove kubeadm kubelet kubectl docker* -y
+   88  sudo apt autoremove
+   89  sudo apt remove kubeadm kubelet kubectl docker* -y --allow-changing-held-packages
+   90  sudo apt remove kubeadm kubelet kubectl docker*  --allow-changing-held-packages
+   91  kubeadm reset
+   92  sudo kubeadm reset
+   93  sudo apt remove kubeadm kubelet kubectl docker*  --allow-changing-held-packages
+   94  sudo apt remove kubeadm kubelet kubectl docker*  -y
+   95  sudo apt remove kubeadm kubelet kubectl
+   96  systemctl stop docker
+   97  ip -a
+   98  ip a
+   99  hostname -i
+  100  watch journalctl -xe
+  101* kubect
+  102  watch journalctl -xe
+  103  kubectl get rs
+  104  git status
+  105  git init
+  106  ls
+  107  pwd
+  108  git remote add origin https://github.com/joel5vega/LF258.git
+  109  git branch -M main
+  110  git push -u origin main
+  111  git status
+  112  git add .
+  113  ls
+  114  pwd
+  115  ls
+  116  git add .
+  117  git commit  -m "first 6 labs files"
+  118  git config --global user.email "joel5vega@gmail.com"
+  119  git commit  -m "first 6 labs files"
+  120  git push
+  121  git push --set-upstream origin master
+  122  git status
+  123  git add .
+  124  git commit -m "init"
+  125  git push
+  126  vim .gitignore
+  127  git add .
+  128  git commit -m "remove"
+  129  git push
+  130  vim .gitignore
+  131  git commit -m "remove"
+  132  git add .
+  133  git commit -m "remove"
+  134  git push
+  135  vim .gitignore
+  136  git add .
+  137  git commit -m "remove"
+  138  git push
+  139  git add .
+  140  vim rs.yaml
+  141  kubectl create -f rs.yaml
+  142  vim rs.yaml
+  143  kubectl create -f rs.yaml
+  144  kubectl describe rs rs-one
+  145  kubectl get pods
+  146  kubectl delete rs rs-one --cascade=orphan
+  147  kubectl get pods
+  148  kubectl create -f rs.yaml
+  149  kubectl get rs
+  150  kubectl get pods
+  151  kubectl edit pod rs-one-v82w
+  152  kubectl edit pod rs-one-v892w
+  153  kubectl get rs
+  154  kubectl get pods
+  155  kubectl get po -L system
+  156  kubectl delete rs rs-one
+  157  kubectl get po -L system
+  158  kubectl delete pod -l system=IsolatedPod
+  159  git add .
+  160  history >lab7-0.txt

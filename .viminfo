@@ -14,10 +14,14 @@
 $
 
 # Command Line History (newest to oldest):
-:x
-|2,0,1660750057,,"x"
 :q
-|2,0,1652932881,,"q"
+|2,0,1660750586,,"q"
+:w
+|2,0,1660750580,,"w"
+:x
+|2,0,1660750344,,"x"
+:set number
+|2,0,1660750330,,"set number"
 
 # Search String History (newest to oldest):
 
@@ -29,51 +33,116 @@ $
 
 # Registers:
 "1	LINE	0
-	        template:
-|3,0,1,1,1,0,1657654921,"        template:"
+	i
+|3,0,1,1,1,0,1660750247,"i"
 "2	LINE	0
-	        activeDeadlineSeconds: 15
-|3,0,2,1,1,0,1657654908,"        activeDeadlineSeconds: 15"
+	        template:
+|3,0,2,1,1,0,1657654921,"        template:"
 "3	LINE	0
-	        parallelism: 2
-|3,0,3,1,1,0,1657654907,"        parallelism: 2"
+	        activeDeadlineSeconds: 15
+|3,0,3,1,1,0,1657654908,"        activeDeadlineSeconds: 15"
 "4	LINE	0
-	        completions: 5dd
-|3,0,4,1,1,0,1657654901,"        completions: 5dd"
+	        parallelism: 2
+|3,0,4,1,1,0,1657654907,"        parallelism: 2"
 "5	LINE	0
+	        completions: 5dd
+|3,0,5,1,1,0,1657654901,"        completions: 5dd"
+"6	LINE	0
 	        
-|3,0,5,1,1,0,1657654594,"        "
+|3,0,6,1,1,0,1657654594,"        "
 ""-	CHAR	0
-	/
-|3,1,36,0,1,0,1660750052,"/"
+	e
+|3,1,36,0,1,0,1660750577,"e"
 
 # File marks:
-'0  2  0  ~/.gitignore
-|4,48,2,0,1660750057,"~/.gitignore"
-'1  2  1  ~/.gitignore
-|4,49,2,1,1660749915,"~/.gitignore"
-'2  2  6  ~/.gitignore
-|4,50,2,6,1660749796,"~/.gitignore"
-'3  2  6  ~/.gitignore
-|4,51,2,6,1660749796,"~/.gitignore"
-'4  11  50  ~/cronjob.yaml
-|4,52,11,50,1657655749,"~/cronjob.yaml"
-'5  15  40  ~/cronjob.yaml
-|4,53,15,40,1657655537,"~/cronjob.yaml"
-'6  15  40  ~/cronjob.yaml
-|4,54,15,40,1657655537,"~/cronjob.yaml"
-'7  16  51  ~/cronjob.yaml
-|4,55,16,51,1657655380,"~/cronjob.yaml"
-'8  16  51  ~/cronjob.yaml
-|4,56,16,51,1657655380,"~/cronjob.yaml"
-'9  16  51  ~/cronjob.yaml
-|4,57,16,51,1657655380,"~/cronjob.yaml"
+'0  13  22  /tmp/kubectl-edit-4123025012.yaml
+|4,48,13,22,1660750586,"/tmp/kubectl-edit-4123025012.yaml"
+'1  19  25  ~/rs.yaml
+|4,49,19,25,1660750344,"~/rs.yaml"
+'2  19  31  ~/rs.yaml
+|4,50,19,31,1660750301,"~/rs.yaml"
+'3  2  0  ~/.gitignore
+|4,51,2,0,1660750057,"~/.gitignore"
+'4  2  1  ~/.gitignore
+|4,52,2,1,1660749915,"~/.gitignore"
+'5  2  6  ~/.gitignore
+|4,53,2,6,1660749796,"~/.gitignore"
+'6  2  6  ~/.gitignore
+|4,54,2,6,1660749796,"~/.gitignore"
+'7  11  50  ~/cronjob.yaml
+|4,55,11,50,1657655749,"~/cronjob.yaml"
+'8  15  40  ~/cronjob.yaml
+|4,56,15,40,1657655537,"~/cronjob.yaml"
+'9  15  40  ~/cronjob.yaml
+|4,57,15,40,1657655537,"~/cronjob.yaml"
 
 # Jumplist (newest first):
+-'  13  22  /tmp/kubectl-edit-4123025012.yaml
+|4,39,13,22,1660750586,"/tmp/kubectl-edit-4123025012.yaml"
+-'  1  0  /tmp/kubectl-edit-4123025012.yaml
+|4,39,1,0,1660750562,"/tmp/kubectl-edit-4123025012.yaml"
+-'  19  25  ~/rs.yaml
+|4,39,19,25,1660750344,"~/rs.yaml"
+-'  19  25  ~/rs.yaml
+|4,39,19,25,1660750344,"~/rs.yaml"
+-'  19  31  ~/rs.yaml
+|4,39,19,31,1660750301,"~/rs.yaml"
+-'  19  31  ~/rs.yaml
+|4,39,19,31,1660750301,"~/rs.yaml"
+-'  1  18  ~/rs.yaml
+|4,39,1,18,1660750234,"~/rs.yaml"
+-'  1  18  ~/rs.yaml
+|4,39,1,18,1660750234,"~/rs.yaml"
+-'  1  18  ~/rs.yaml
+|4,39,1,18,1660750234,"~/rs.yaml"
+-'  1  18  ~/rs.yaml
+|4,39,1,18,1660750234,"~/rs.yaml"
+-'  2  0  ~/.gitignore
+|4,39,2,0,1660750057,"~/.gitignore"
+-'  2  0  ~/.gitignore
+|4,39,2,0,1660750057,"~/.gitignore"
+-'  2  0  ~/.gitignore
+|4,39,2,0,1660750057,"~/.gitignore"
+-'  2  0  ~/.gitignore
+|4,39,2,0,1660750057,"~/.gitignore"
+-'  2  0  ~/.gitignore
+|4,39,2,0,1660750057,"~/.gitignore"
+-'  2  0  ~/.gitignore
+|4,39,2,0,1660750057,"~/.gitignore"
+-'  2  0  ~/.gitignore
+|4,39,2,0,1660750057,"~/.gitignore"
 -'  2  0  ~/.gitignore
 |4,39,2,0,1660750057,"~/.gitignore"
 -'  2  1  ~/.gitignore
 |4,39,2,1,1660749915,"~/.gitignore"
+-'  2  1  ~/.gitignore
+|4,39,2,1,1660749915,"~/.gitignore"
+-'  2  1  ~/.gitignore
+|4,39,2,1,1660749915,"~/.gitignore"
+-'  2  1  ~/.gitignore
+|4,39,2,1,1660749915,"~/.gitignore"
+-'  2  1  ~/.gitignore
+|4,39,2,1,1660749915,"~/.gitignore"
+-'  2  1  ~/.gitignore
+|4,39,2,1,1660749915,"~/.gitignore"
+-'  2  1  ~/.gitignore
+|4,39,2,1,1660749915,"~/.gitignore"
+-'  2  1  ~/.gitignore
+|4,39,2,1,1660749915,"~/.gitignore"
+-'  2  6  ~/.gitignore
+|4,39,2,6,1660749796,"~/.gitignore"
+-'  2  6  ~/.gitignore
+|4,39,2,6,1660749796,"~/.gitignore"
+-'  2  6  ~/.gitignore
+|4,39,2,6,1660749796,"~/.gitignore"
+-'  2  6  ~/.gitignore
+|4,39,2,6,1660749796,"~/.gitignore"
+-'  2  6  ~/.gitignore
+|4,39,2,6,1660749796,"~/.gitignore"
+-'  2  6  ~/.gitignore
+|4,39,2,6,1660749796,"~/.gitignore"
+-'  2  6  ~/.gitignore
+|4,39,2,6,1660749796,"~/.gitignore"
 -'  2  6  ~/.gitignore
 |4,39,2,6,1660749796,"~/.gitignore"
 -'  1  0  ~/.gitignore
@@ -82,6 +151,48 @@ $
 |4,39,1,0,1660749745,"~/.gitignore"
 -'  1  0  ~/.gitignore
 |4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
 -'  11  50  ~/cronjob.yaml
 |4,39,11,50,1657655749,"~/cronjob.yaml"
 -'  11  50  ~/cronjob.yaml
@@ -98,180 +209,110 @@ $
 |4,39,11,50,1657655749,"~/cronjob.yaml"
 -'  11  50  ~/cronjob.yaml
 |4,39,11,50,1657655749,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655739,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655739,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655739,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655739,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655739,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655739,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655739,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655739,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655537,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655537,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655537,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655537,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655537,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655537,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655537,"~/cronjob.yaml"
--'  15  40  ~/cronjob.yaml
-|4,39,15,40,1657655537,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655437,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655380,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655380,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655380,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655380,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655380,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655380,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655380,"~/cronjob.yaml"
--'  16  51  ~/cronjob.yaml
-|4,39,16,51,1657655380,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  17  9  ~/cronjob.yaml
-|4,39,17,9,1657655339,"~/cronjob.yaml"
--'  16  9  ~/cronjob.yaml
-|4,39,16,9,1657655051,"~/cronjob.yaml"
--'  16  9  ~/cronjob.yaml
-|4,39,16,9,1657655051,"~/cronjob.yaml"
--'  16  9  ~/cronjob.yaml
-|4,39,16,9,1657655051,"~/cronjob.yaml"
--'  16  9  ~/cronjob.yaml
-|4,39,16,9,1657655051,"~/cronjob.yaml"
--'  16  9  ~/cronjob.yaml
-|4,39,16,9,1657655051,"~/cronjob.yaml"
--'  16  9  ~/cronjob.yaml
-|4,39,16,9,1657655051,"~/cronjob.yaml"
--'  16  9  ~/cronjob.yaml
-|4,39,16,9,1657655051,"~/cronjob.yaml"
--'  16  9  ~/cronjob.yaml
-|4,39,16,9,1657655051,"~/cronjob.yaml"
--'  10  36  ~/cronjob.yaml
-|4,39,10,36,1657655020,"~/cronjob.yaml"
--'  10  36  ~/cronjob.yaml
-|4,39,10,36,1657655020,"~/cronjob.yaml"
--'  10  36  ~/cronjob.yaml
-|4,39,10,36,1657655020,"~/cronjob.yaml"
--'  10  36  ~/cronjob.yaml
-|4,39,10,36,1657655020,"~/cronjob.yaml"
--'  10  36  ~/cronjob.yaml
-|4,39,10,36,1657655020,"~/cronjob.yaml"
--'  10  36  ~/cronjob.yaml
-|4,39,10,36,1657655020,"~/cronjob.yaml"
--'  10  36  ~/cronjob.yaml
-|4,39,10,36,1657655020,"~/cronjob.yaml"
--'  10  36  ~/cronjob.yaml
-|4,39,10,36,1657655020,"~/cronjob.yaml"
--'  10  36  ~/cronjob.yaml
-|4,39,10,36,1657655020,"~/cronjob.yaml"
--'  10  36  ~/cronjob.yaml
-|4,39,10,36,1657655020,"~/cronjob.yaml"
--'  10  36  ~/cronjob.yaml
-|4,39,10,36,1657655020,"~/cronjob.yaml"
--'  10  36  ~/cronjob.yaml
-|4,39,10,36,1657655020,"~/cronjob.yaml"
--'  10  36  ~/cronjob.yaml
-|4,39,10,36,1657655020,"~/cronjob.yaml"
--'  10  36  ~/cronjob.yaml
-|4,39,10,36,1657655020,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
 
 # History of marks within files (newest to oldest):
+
+> /tmp/kubectl-edit-4123025012.yaml
+	*	1660750586	0
+	"	13	22
+	^	15	23
+	.	15	22
+	+	15	22
+
+> ~/rs.yaml
+	*	1660750343	0
+	"	19	25
+	^	19	26
+	.	19	25
+	+	1	1
+	+	19	18
+	+	1	0
+	+	4	7
+	+	6	7
+	+	7	7
+	+	8	15
+	+	9	23
+	+	10	8
+	+	11	15
+	+	12	23
+	+	13	31
+	+	14	15
+	+	15	23
+	+	16	23
+	+	17	31
+	+	18	31
+	+	19	31
+	+	17	25
+	+	18	25
+	+	19	25
 
 > ~/.gitignore
 	*	1660750055	0

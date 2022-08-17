@@ -1,2 +1,2 @@
-*.ssh
-*.cache
+*/.ssh
+*/.cache

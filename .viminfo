@@ -15,7 +15,7 @@ $
 
 # Command Line History (newest to oldest):
 :x
-|2,0,1657655748,,"x"
+|2,0,1660749796,,"x"
 :q
 |2,0,1652932881,,"q"
 
@@ -48,38 +48,54 @@ $
 |3,0,36,0,1,0,1657654196,"c"
 
 # File marks:
-'0  11  50  ~/cronjob.yaml
-|4,48,11,50,1657655749,"~/cronjob.yaml"
-'1  15  40  ~/cronjob.yaml
-|4,49,15,40,1657655537,"~/cronjob.yaml"
+'0  2  6  ~/.gitignore
+|4,48,2,6,1660749796,"~/.gitignore"
+'1  11  50  ~/cronjob.yaml
+|4,49,11,50,1657655749,"~/cronjob.yaml"
 '2  15  40  ~/cronjob.yaml
 |4,50,15,40,1657655537,"~/cronjob.yaml"
-'3  16  51  ~/cronjob.yaml
-|4,51,16,51,1657655380,"~/cronjob.yaml"
+'3  15  40  ~/cronjob.yaml
+|4,51,15,40,1657655537,"~/cronjob.yaml"
 '4  16  51  ~/cronjob.yaml
 |4,52,16,51,1657655380,"~/cronjob.yaml"
 '5  16  51  ~/cronjob.yaml
 |4,53,16,51,1657655380,"~/cronjob.yaml"
 '6  16  51  ~/cronjob.yaml
 |4,54,16,51,1657655380,"~/cronjob.yaml"
-'7  17  9  ~/cronjob.yaml
-|4,55,17,9,1657655051,"~/cronjob.yaml"
-'8  16  9  ~/cronjob.yaml
-|4,56,16,9,1657655051,"~/cronjob.yaml"
-'9  17  9  ~/cronjob.yaml
-|4,57,17,9,1657655051,"~/cronjob.yaml"
+'7  16  51  ~/cronjob.yaml
+|4,55,16,51,1657655380,"~/cronjob.yaml"
+'8  17  9  ~/cronjob.yaml
+|4,56,17,9,1657655051,"~/cronjob.yaml"
+'9  16  9  ~/cronjob.yaml
+|4,57,16,9,1657655051,"~/cronjob.yaml"
 
 # Jumplist (newest first):
+-'  2  6  ~/.gitignore
+|4,39,2,6,1660749796,"~/.gitignore"
+-'  1  0  ~/.gitignore
+|4,39,1,0,1660749745,"~/.gitignore"
+-'  11  50  ~/cronjob.yaml
+|4,39,11,50,1657655749,"~/cronjob.yaml"
 -'  11  50  ~/cronjob.yaml
 |4,39,11,50,1657655749,"~/cronjob.yaml"
 -'  15  40  ~/cronjob.yaml
 |4,39,15,40,1657655739,"~/cronjob.yaml"
+-'  15  40  ~/cronjob.yaml
+|4,39,15,40,1657655739,"~/cronjob.yaml"
+-'  15  40  ~/cronjob.yaml
+|4,39,15,40,1657655537,"~/cronjob.yaml"
 -'  15  40  ~/cronjob.yaml
 |4,39,15,40,1657655537,"~/cronjob.yaml"
 -'  16  51  ~/cronjob.yaml
 |4,39,16,51,1657655437,"~/cronjob.yaml"
 -'  16  51  ~/cronjob.yaml
 |4,39,16,51,1657655437,"~/cronjob.yaml"
+-'  16  51  ~/cronjob.yaml
+|4,39,16,51,1657655437,"~/cronjob.yaml"
+-'  16  51  ~/cronjob.yaml
+|4,39,16,51,1657655437,"~/cronjob.yaml"
+-'  16  51  ~/cronjob.yaml
+|4,39,16,51,1657655380,"~/cronjob.yaml"
 -'  16  51  ~/cronjob.yaml
 |4,39,16,51,1657655380,"~/cronjob.yaml"
 -'  17  9  ~/cronjob.yaml
@@ -88,6 +104,14 @@ $
 |4,39,17,9,1657655339,"~/cronjob.yaml"
 -'  17  9  ~/cronjob.yaml
 |4,39,17,9,1657655339,"~/cronjob.yaml"
+-'  17  9  ~/cronjob.yaml
+|4,39,17,9,1657655339,"~/cronjob.yaml"
+-'  17  9  ~/cronjob.yaml
+|4,39,17,9,1657655339,"~/cronjob.yaml"
+-'  17  9  ~/cronjob.yaml
+|4,39,17,9,1657655339,"~/cronjob.yaml"
+-'  16  9  ~/cronjob.yaml
+|4,39,16,9,1657655051,"~/cronjob.yaml"
 -'  16  9  ~/cronjob.yaml
 |4,39,16,9,1657655051,"~/cronjob.yaml"
 -'  10  36  ~/cronjob.yaml
@@ -98,6 +122,16 @@ $
 |4,39,10,36,1657655020,"~/cronjob.yaml"
 -'  10  36  ~/cronjob.yaml
 |4,39,10,36,1657655020,"~/cronjob.yaml"
+-'  10  36  ~/cronjob.yaml
+|4,39,10,36,1657655020,"~/cronjob.yaml"
+-'  10  36  ~/cronjob.yaml
+|4,39,10,36,1657655020,"~/cronjob.yaml"
+-'  10  36  ~/cronjob.yaml
+|4,39,10,36,1657655020,"~/cronjob.yaml"
+-'  10  36  ~/cronjob.yaml
+|4,39,10,36,1657655020,"~/cronjob.yaml"
+-'  10  36  ~/cronjob.yaml
+|4,39,10,36,1657654974,"~/cronjob.yaml"
 -'  10  36  ~/cronjob.yaml
 |4,39,10,36,1657654974,"~/cronjob.yaml"
 -'  1  0  ~/cronjob.yaml
@@ -110,6 +144,16 @@ $
 |4,39,1,0,1657654852,"~/cronjob.yaml"
 -'  1  0  ~/cronjob.yaml
 |4,39,1,0,1657654852,"~/cronjob.yaml"
+-'  1  0  ~/cronjob.yaml
+|4,39,1,0,1657654852,"~/cronjob.yaml"
+-'  1  0  ~/cronjob.yaml
+|4,39,1,0,1657654852,"~/cronjob.yaml"
+-'  1  0  ~/cronjob.yaml
+|4,39,1,0,1657654852,"~/cronjob.yaml"
+-'  1  0  ~/cronjob.yaml
+|4,39,1,0,1657654852,"~/cronjob.yaml"
+-'  1  0  ~/cronjob.yaml
+|4,39,1,0,1657654852,"~/cronjob.yaml"
 -'  8  31  ~/job.yaml
 |4,39,8,31,1657654624,"~/job.yaml"
 -'  8  31  ~/job.yaml
@@ -174,104 +218,67 @@ $
 |4,39,8,31,1657654624,"~/job.yaml"
 -'  8  31  ~/job.yaml
 |4,39,8,31,1657654624,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654586,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
--'  7  21  ~/job.yaml
-|4,39,7,21,1657654389,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
+-'  8  31  ~/job.yaml
+|4,39,8,31,1657654624,"~/job.yaml"
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	*	1660749795	0
+	"	2	6
+	^	2	7
+	.	2	6
+	+	2	6
 
 > ~/cronjob.yaml
 	*	1657655748	0

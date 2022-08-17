@@ -3,4 +3,6 @@
 **/.kube
 **/.vim
 /.ssh/*
-*cache*
+/.cache/*
+/.kube
+

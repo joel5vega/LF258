@@ -158,3 +158,84 @@
   158  kubectl delete pod -l system=IsolatedPod
   159  git add .
   160  history >lab7-0.txt
+  161  git add .
+  162  git commit -m "lab 7.0"
+  163  git push
+  164  cp rs.yaml ds.yaml
+  165  vim ds.yaml 
+  166  echo Leccion 7.1
+  167  kubectl create -f ds.yaml 
+  168  echo Leccion 7.1
+  169  vim ds.yaml 
+  170  kubectl create -f ds.yaml 
+  171  vim ds.yaml 
+  172  rm ds.yaml 
+  173  echo Leccion 7.1
+  174  cp rs.yaml ds.yaml
+  175  vim ds
+  176  vim ds.yaml 
+  177  kubectl create -f ds.yaml 
+  178  vim ds.yaml 
+  179  kubectl create -f ds.yaml 
+  180  kubectl get ds
+  181  kubectl get pod
+  182  kubectl describe pod ds-one-gtzwf |grep Image:
+  183  echo 7.3 Rolling updates and rollbacks
+  184  kubectl get ds ds-one -o yaml|grep -A 4 Strategy
+  185  kubectl edit ds ds-one
+  186  kubectl set image ds ds-one ngnix=nginx:1.16.1-alpine
+  187  kubectl edit ds ds-one
+  188  kubectl set image ds ds-one ngnix=nginx:1.16.1-alpine
+  189  kubectl set image ds ds-one ngnix=nginx:1.18.1-alpine
+  190  kubectl images
+  191  kubectl set image ds ds-one ngnix=nginx:1.18.1-alpine
+  192  kubectl set image ds ds-one nginx=nginx:1.18.1-alpine
+  193  kubectl describe pod ds-one
+  194  kubectl get pds
+  195  kubectl describe pods ds-one*
+  196  kubectl get pod
+  197  kubectl describe pods ds-one-gtzwf
+  198  kubectl describe pods ds-one-gtzwf|grep Image
+  199  kubectl delete pod ds-one-gtzwf
+  200  kubectl describe pods ds-one-gtzwf|grep Image:
+  201  kubectl get pods
+  202  kubectl describe pods ds-one-67p9p|grep Image:
+  203  kubectl get pods
+  204  kubectl describe pod ds-one-67p9p
+  205  kubectl describe pod ds-one-67p9p|grep Image:
+  206  kubectl rollout history ds ds-one
+  207  kubectl rollout history ds ds-one --revision=1
+  208  kubectl rollout history ds ds-one --revision=2
+  209  kubectl rollout undo ds ds-one --to-revision=1
+  210  kubectl get pods
+  211  kubectl describe pod ds-one-67p9p|grep Image:
+  212  kubectl delete pod ds-one-67p9p
+  213  kubectl get pods
+  214  kubectl describe pod ps-one-jp7p5
+  215  kubectl describe pod ds-one-jp7p5
+  216  kubectl describe pod ds-one-jp7p5|grep Image
+  217  kubectl describe ds|grep Ima
+  218  kubectl get ds ds-one -o yaml
+  219  kubectl get ds ds-one -o yaml >ds2.yaml
+  220  vim ds2.yaml 
+  221  kubectl create -f ds2.yaml 
+  222  kubectl get pod
+  223  kubectl describe pod ds-two-44kx7|grep Im
+  224  kubectl edit ds ds-two --record
+  225  kubectl get ds ds-two
+  226  kubectl get pod
+  227  kubectl edit ds ds-two --record
+  228  kubectl describe pod ds-two-44kx7|grep Im
+  229  kubectl get ds ds-two
+  230  kubectl get pod
+  231  kubectl edit ds ds-two --record
+  232  kubectl get ds ds-two
+  233  kubectl get pod
+  234  kubectl describe pod ds-two-f92vk
+  235  kubectl describe pod ds-two-f92vk|grep Im
+  236  kubectl rollout status ds ds-two
+  237  kubectl rollout history ds ds-two
+  238  kubectl rollout history ds ds-two --revision=4
+  239  kubectl delete ds ds-one ds-two
+  240* history
+  241  history> lab7-0.txt 

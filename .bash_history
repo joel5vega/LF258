@@ -351,3 +351,6 @@ cd volumes/
 ll
 vim nfs-pod.yaml 
 exit
+git add .
+git commit -m "8 Volumes lab"
+git push

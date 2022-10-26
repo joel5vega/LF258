@@ -1,0 +1,2 @@
+EX 11.2 Step 11: kubectl get ds myingress-ingress-nginx-controller -o yaml | \
+linkerd inject --ingress --skip-inbound-ports 443 --skip-outbound-ports 443 - | kubectl apply -f - 

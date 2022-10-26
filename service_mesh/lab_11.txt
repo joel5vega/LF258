@@ -1,0 +1,538 @@
+    1  sudo visudo
+    2  vim /etc/sudoers.d
+    3  sudo visudo
+    4  exit
+    5  sudo visudo
+    6  exit
+    7  ip a
+    8  reboot
+    9  exit
+   10  history
+   11  hostname -i
+   12  ip a
+   13  apt-get update -y && apt-get upgrade -y
+   14  sudo -i
+   15  kubectl get nodes
+   16  netstat |grep LISTen
+   17  netstat |grep -I LISTen
+   18  netstat |grep -i LISTen
+   19  sudo apt install net-tools
+   20  netstat |grep -i LISTen
+   21  kubectl get nodes
+   22  ls $HOME
+   23  ls \$HOME/admin.conf
+   24  mkdir -p $HOME/.kube
+   25  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+   26  chown $(id -u):$(id -g) $HOME/.kube/config
+   27  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+   28  kubectl apply -f calico.yaml
+   29  kubectl get nodes
+   30  sudo cat /root/ku*
+   31  ls /root
+   32  sudo ls /root
+   33  sudo cat /root/kubeadm-init.out
+   34  sudo cat /root/kubeadm-init.out |tail -n 2
+   35  sudo cat /root/kubeadm-init.out |tail -n 2 -A 1
+   36  sudo cat /root/kubeadm-init.out |tail -n 2
+   37  sudo tail -n 2 /root/kubeadm-init.out
+   38  ll
+   39  sudo ll /root
+   40  sudo ls -l /root
+   41  date
+   42  tzselect 
+   43  date
+   44  sudo ls -l /root
+   45  reboot
+   46  sudo reboot
+   47  sudo tail -f /root/kubeadm-init.out
+   48  cat /etc/kubernetes/
+   49  ls /etc/kubernetes/
+   50  ls $HOME/.kube
+   51  ll $HOME/.kube
+   52  rm .kube/config
+   53  ll $HOME/.kube
+   54  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+   55  sudo cp  /etc/kubernetes/admin.conf $HOME/.kube/config
+   56  sudo tail -f /root/kubeadm-init.out
+   57  ls /etc/kubernetes/admin.conf 
+   58  sudo tail -f /root/kubeadm-init.out
+   59  kubectl get nodes
+   60  sudo tail -f /root/kubeadm-init.out
+   61  kubectl get nodes
+   62  watch kubectl get nodes
+   63  kubectl reset
+   64  kubeadm reset
+   65  watch kubectl get nodes
+   66  sudo apt remove kubectl
+   67  sudo apt remove kubectl kubeadm kubelet
+   68  sudo apt remove docker
+   69  sudo apt remove docker.io 
+   70  watch kubectl get nodes
+   71  journalctl -xe
+   72  watch journalctl -xe
+   73  sudo systemctl stop docker
+   74  sudo systemctl status docker
+   75  sudo apt remove docker.io
+   76  sudo apt remove docker
+   77  watch journalctl -xe
+   78  hostname -i
+   79  kubectl get nodes
+   80  watch journalctl -xe
+   81  sudo apt remove docker
+   82  systemctl status docker
+   83  reboot
+   84  sudo reboot
+   85  sudo apt remove kubeadm kubelet kubectl docker* -y
+   86  sudo systemctl stop docker
+   87  sudo apt remove kubeadm kubelet kubectl docker* -y
+   88  sudo apt autoremove
+   89  sudo apt remove kubeadm kubelet kubectl docker* -y --allow-changing-held-packages
+   90  sudo apt remove kubeadm kubelet kubectl docker*  --allow-changing-held-packages
+   91  kubeadm reset
+   92  sudo kubeadm reset
+   93  sudo apt remove kubeadm kubelet kubectl docker*  --allow-changing-held-packages
+   94  sudo apt remove kubeadm kubelet kubectl docker*  -y
+   95  sudo apt remove kubeadm kubelet kubectl
+   96  systemctl stop docker
+   97  ip -a
+   98  ip a
+   99  hostname -i
+  100  watch journalctl -xe
+  101  ls
+  102  ls -a
+  103  ip a|grep glob
+  104  hostname
+  105  exit
+  106  kubect
+  107  watch journalctl -xe
+  108  kubectl get rs
+  109  git status
+  110  git init
+  111  ls
+  112  pwd
+  113  git remote add origin https://github.com/joel5vega/LF258.git
+  114  git branch -M main
+  115  git push -u origin main
+  116  git status
+  117  git add .
+  118  ls
+  119  pwd
+  120  ls
+  121  git add .
+  122  git commit  -m "first 6 labs files"
+  123  git config --global user.email "joel5vega@gmail.com"
+  124  git commit  -m "first 6 labs files"
+  125  git push
+  126  git push --set-upstream origin master
+  127  git status
+  128  git add .
+  129  git commit -m "init"
+  130  git push
+  131  vim .gitignore
+  132  git add .
+  133  git commit -m "remove"
+  134  git push
+  135  vim .gitignore
+  136  git commit -m "remove"
+  137  git add .
+  138  git commit -m "remove"
+  139  git push
+  140  vim .gitignore
+  141  git add .
+  142  git commit -m "remove"
+  143  git push
+  144  git add .
+  145  vim rs.yaml
+  146  kubectl create -f rs.yaml
+  147  vim rs.yaml
+  148  kubectl create -f rs.yaml
+  149  kubectl describe rs rs-one
+  150  kubectl get pods
+  151  kubectl delete rs rs-one --cascade=orphan
+  152  kubectl get pods
+  153  kubectl create -f rs.yaml
+  154  kubectl get rs
+  155  kubectl get pods
+  156  kubectl edit pod rs-one-v82w
+  157  kubectl edit pod rs-one-v892w
+  158  kubectl get rs
+  159  kubectl get pods
+  160  kubectl get po -L system
+  161  kubectl delete rs rs-one
+  162  kubectl get po -L system
+  163  kubectl delete pod -l system=IsolatedPod
+  164  git add .
+  165  history >lab7-0.txt
+  166  git add .
+  167  git commit -m "lab 7.0"
+  168  git push
+  169  cp rs.yaml ds.yaml
+  170  vim ds.yaml 
+  171  echo Leccion 7.1
+  172  kubectl create -f ds.yaml 
+  173  echo Leccion 7.1
+  174  vim ds.yaml 
+  175  kubectl create -f ds.yaml 
+  176  vim ds.yaml 
+  177  rm ds.yaml 
+  178  echo Leccion 7.1
+  179  cp rs.yaml ds.yaml
+  180  vim ds
+  181  vim ds.yaml 
+  182  kubectl create -f ds.yaml 
+  183  vim ds.yaml 
+  184  kubectl create -f ds.yaml 
+  185  kubectl get ds
+  186  kubectl get pod
+  187  kubectl describe pod ds-one-gtzwf |grep Image:
+  188  echo 7.3 Rolling updates and rollbacks
+  189  kubectl get ds ds-one -o yaml|grep -A 4 Strategy
+  190  kubectl edit ds ds-one
+  191  kubectl set image ds ds-one ngnix=nginx:1.16.1-alpine
+  192  kubectl edit ds ds-one
+  193  kubectl set image ds ds-one ngnix=nginx:1.16.1-alpine
+  194  kubectl set image ds ds-one ngnix=nginx:1.18.1-alpine
+  195  kubectl images
+  196  kubectl set image ds ds-one ngnix=nginx:1.18.1-alpine
+  197  kubectl set image ds ds-one nginx=nginx:1.18.1-alpine
+  198  kubectl describe pod ds-one
+  199  kubectl get pds
+  200  kubectl describe pods ds-one*
+  201  kubectl get pod
+  202  kubectl describe pods ds-one-gtzwf
+  203  kubectl describe pods ds-one-gtzwf|grep Image
+  204  kubectl delete pod ds-one-gtzwf
+  205  kubectl describe pods ds-one-gtzwf|grep Image:
+  206  kubectl get pods
+  207  kubectl describe pods ds-one-67p9p|grep Image:
+  208  kubectl get pods
+  209  kubectl describe pod ds-one-67p9p
+  210  kubectl describe pod ds-one-67p9p|grep Image:
+  211  kubectl rollout history ds ds-one
+  212  kubectl rollout history ds ds-one --revision=1
+  213  kubectl rollout history ds ds-one --revision=2
+  214  kubectl rollout undo ds ds-one --to-revision=1
+  215  kubectl get pods
+  216  kubectl describe pod ds-one-67p9p|grep Image:
+  217  kubectl delete pod ds-one-67p9p
+  218  kubectl get pods
+  219  kubectl describe pod ps-one-jp7p5
+  220  kubectl describe pod ds-one-jp7p5
+  221  kubectl describe pod ds-one-jp7p5|grep Image
+  222  kubectl describe ds|grep Ima
+  223  kubectl get ds ds-one -o yaml
+  224  kubectl get ds ds-one -o yaml >ds2.yaml
+  225  vim ds2.yaml 
+  226  kubectl create -f ds2.yaml 
+  227  kubectl get pod
+  228  kubectl describe pod ds-two-44kx7|grep Im
+  229  kubectl edit ds ds-two --record
+  230  kubectl get ds ds-two
+  231  kubectl get pod
+  232  kubectl edit ds ds-two --record
+  233  kubectl describe pod ds-two-44kx7|grep Im
+  234  kubectl get ds ds-two
+  235  kubectl get pod
+  236  kubectl edit ds ds-two --record
+  237  kubectl get ds ds-two
+  238  kubectl get pod
+  239  kubectl describe pod ds-two-f92vk
+  240  kubectl describe pod ds-two-f92vk|grep Im
+  241  kubectl rollout status ds ds-two
+  242  kubectl rollout history ds ds-two
+  243  kubectl rollout history ds ds-two --revision=4
+  244  kubectl delete ds ds-one ds-two
+  245  history
+  246  history> lab7-0.txt 
+  247  git add .
+  248  git commit -m "leccion 7"
+  249  vim .gitignore
+  250  git add .
+  251  git commit -m gitignore
+  252  git push
+  253  ls
+  254  git remove
+  255  vim .gitignore
+  256  git commit -m gitignore
+  257  git add 
+  258  git add .
+  259  git commit -m gitignore
+  260  git push
+  261  git status
+  262  git remove .ssh
+  263  ls
+  264  ls -a
+  265  rm .gitconfig 
+  266  l
+  267  git status
+  268  git restore .
+  269  git rm ./ssg
+  270  git rm ./ssh
+  271  git rm ./ssh/*
+  272  git rm .ssh/*
+  273  git rm .ssh
+  274  git commit -m
+  275  git commit -m ssh
+  276  git push
+  277  git add .
+  278  ls
+  279  git status
+  280  git push
+  281  git rm .cache
+  282  git rm .cache -r
+  283  git rm .kube -r
+  284  git rm .vim -r
+  285  git status
+  286  ls
+  287  ls -a
+  288  ls 
+  289  ls -a
+  290  git status
+  291  git restore
+  292  git restore -r ./ssh
+  293  git restore -r .ssh
+  294  l
+  295  ll
+  296  ll -ha
+  297  ls .ssh
+  298  git status
+  299  git restore --staged 
+  300  git restore --staged *
+  301  git status
+  302  ls
+  303  ls -a
+  304  git restore --staged */.ssh
+  305  git restore --staged */.kube
+  306  git restore --staged .kube
+  307  git status
+  308  ls
+  309  ls -a
+  310  git restore --staged .kube
+  311  git restore --staged .kube/*
+  312  ls -a
+  313  git status
+  314  git pull
+  315  git status
+  316  git reset
+  317  ll
+  318  ll -a
+  319  git reset
+  320  git status
+  321  git restore
+  322  git restore .kube
+  323  ll -a
+  324  git restore .ssh
+  325  git restore .cache
+  326  git restore .vim
+  327  ll -a
+  328  git add .ssh
+  329  ll -a
+  330  git status
+  331  git add .
+  332  git commit -m restores
+  333  git push
+  334  git commit -m restores
+  335  vim .gitignore 
+  336  git add .
+  337  git push
+  338  git commit -m ignore
+  339  git push
+  340  ll -a
+  341  vim .gitignore 
+  342  git add .
+  343  git commit -m ign2
+  344  git push
+  345  sudo shutdown -h 0
+  346  shutdown -h 0
+  347  ssh w1
+  348  cat /etc/hosts
+  349  sudo shutdown -h 0
+  350  cd volumes/
+  351  ll
+  352  vim nfs-pod.yaml 
+  353  exit
+  354  git add .
+  355  git commit -m "8 Volumes lab"
+  356  git push
+  357  ll
+  358  mkdir service_mesh
+  359  cd service
+  360  cd service_mesh/
+  361  vim setupLinkerd.txt
+  362  mv setupLinkerd.txt setupLinkerd.sh
+  363  sh setupLinkerd.sh
+  364  vim setupLinkerd.sh 
+  365  sh setupLinkerd.sh
+  366  cat ~.bashrc
+  367  cat ~/.bashrc
+  368  linkerd check --pre
+  369  curl -sL run.linkerd.io/install | sh
+  370  export PATH=$PATH:/home/joel/.linkerd2/bin
+  371  cat ~/.bashrc 
+  372  vim ~/.bashrc
+  373  linkerd check --pre
+  374  linkerd install |kubectl apply -f -
+  375  linkerd check
+  376  kubectl -n linkerd get configmap/linkerd-config
+  377  linkerd check
+  378  linkerd check --pre
+  379  linkerd check
+  380  linkerd install |kubectl apply -f -
+  381  linkerd install --crds |kubectl apply -f -
+  382  linkerd install |kubectl apply -f -
+  383  linkerd check
+  384  linkerd install |kubectl apply -f -
+  385  linkerd install --set proxyInit.runAsRoot=true |kubectl apply -f -
+  386  linkerd check
+  387  linkerd viz install |kubectl apply -f
+  388  linkerd viz install |kubectl apply -f -
+  389  kubectl get pods
+  390  linkerd viz install |kubectl apply -f -
+  391  linkerd check
+  392  kubectl describe pod/linkerd-destination-5f7cff69b6-bjdpj
+  393  kubectl get pods
+  394  free -h
+  395  kubectl get pods --all-namespaces
+  396  linkerd -h
+  397  linkerd uninstall | kubectl apply -f -
+  398  linkerd uninstall
+  399  curl -sL run.linkerd.io/install
+  400  linkerd uninstall | kubectl apply -f -
+  401  linkerd uninstall | grep version
+  402  linkerd uninstall | grep -i version
+  403  linkerd uninstall --validate=false | kubectl apply -f -
+  404  linkerd uninstall | grep -i version --validate=false
+  405  linkerd uninstall --validate=false | kubectl apply -f - --validate=false
+  406  linkerd uninstall | kubectl apply -f - --validate=false
+  407  kubectl get ns
+  408  kubectl delete ns linkerd
+  409  linkerd install >> linkerd.txt
+  410  kubectl get pod  --all-namespaces
+  411  kubectl delete pod coredns-64897985d-hjq9q
+  412  kubectl por delete coredns-64897985d-hjq9q
+  413  kubectl delete pod coredns-64897985d-hjq9q
+  414  kubectl delete pod coredns*
+  415  kubectl -n kube-system delete pod coredns-64897985d-x9tqw
+  416  kubectl get pod  --all-namespaces
+  417  kubectl -n kube-system delete pod coredns-64897985d-x9tqw coredns-64897985d-vrjj8
+  418  kubectl get pod --all-namespaces
+  419  kubectl describe pod coredns-64897985d-78m6k
+  420  kubectl pod  describe coredns-64897985d-78m6k
+  421  kubectl get pod --all-namespaces
+  422  kubectl describe pod coredns-64897985d-78m6k
+  423  kubectl -ns kube-system describe pod coredns-64897985d-78m6k
+  424  kubectl -n kube-system describe pod coredns-64897985d-78m6k
+  425  kubectl -n kube-system get pod coredns-64897985d-78m6k -o yaml
+  426  kubectl -n kube-system get configmaps
+  427  kubectl get pods --all-namespaces
+  428  kubectl -n kube-system delete pod coredns-64897985d-78m6k coredns-64897985d-rdcfq
+  429  kubectl -n kube-system log coredns-*
+  430  kubectl get pods --all-namespaces
+  431  kubectl -n kube-system log coredns-64897985d-gbx97
+  432  kubectl log  -n kube-system  coredns-64897985d-gbx97
+  433  kubectl -n kube-system log pod coredns-64897985d-gbx97
+  434  kubectl logs coredns-64897985d-gbx97
+  435  kubectl -n kube-system logs coredns-64897985d-gbx97
+  436  kubectl -ns kube-system logs coredns-64897985d-gbx97
+  437  kubectl -n kube-system logs 
+  438  kubectl get pods --all-namespaces
+  439  kubectl -n kube-system logs coredns-64897985d-gbx97
+  440  kubectl get configmap --all-namespaces
+  441  cd ..
+  442  cd service
+  443  cd services
+  444  ll
+  445  kubectl -n accounting get pods
+  446  vim nettool.yaml 
+  447  kubectl create -f nettool.yaml 
+  448  kubectl exec -it nettool -- /bin/bash 
+  449  kubectl exec -it ubuntu -- /bin/bash 
+  450  kubectl exec -it nettool -- /bin/bash 
+  451  kubectl -n kube-system get svc
+  452  kubectl  -n kube-system get svc kube-dns -o yaml
+  453  kubectl get pod -l k8s-app --all-namespaces
+  454  kubectl -n kube-system get pod coredns-64897985d-gbx97
+  455  kubectl -n kube-system get pod coredns-64897985d-gbx97 -o yaml
+  456  kubectl -n kube-system get configmaps
+  457  kubectl -n kube-system get configmaps coredns -o yaml
+  458  kubectl -n kube-system edit configmaps coredns
+  459  kubectl -n kube-system get pods
+  460  kubectl -n kube-system delete pod coredns-64897985d-gbx97 coredns-64897985d-xjq65
+  461  kubectl -n kube-system get pods
+  462  cd ..
+  463  cd service_mesh/
+  464  curl -sL run.linkerd.io/install | sh
+  465  linkerd check --pre
+  466  cat ~/.bashrc 
+  467  linkerd check --pre
+  468  sudo shutdown -h 0
+  469  curl -sL run.linkerd.io/install | sh
+  470  linkerd check
+  471  linkerd uninstall
+  472  linkerd uninstall |kubectl apply -f -
+  473  linkerd uninstall |kubectl apply -f - --validate=false
+  474  linkerd uninstall |kubectl delete -f -
+  475  cd service_mesh/
+  476  echo "lab 11 Ingress"
+  477  curl -sL run.linkerd.io/install > setup.sh
+  478  vim setup.sh 
+  479  sh setup.sh 
+  480  linkerd check --pre
+  481  vim correction.txt
+  482  linkerd install --crds | kubectl apply -f -
+  483  linkerd install | kubectl apply -f -
+  484  linkerd install -- set proxyInit.runAsRoot | kubectl apply -f -
+  485  linkerd check --pre
+  486  linkerd check
+  487  linkerd check --pre
+  488  linkerd install --set proxyInit.runAsRoot | kubectl apply -f -
+  489  linkerd install  | kubectl apply -f -
+  490  cat ~./bashrc
+  491  cat ~/.bashrc
+  492  export PATH=$PATH:/home/joel/.linkerd2/bin
+  493  linkerd install  | kubectl apply -f -
+  494  linkerd install --set proxyInit.runAsRoot=true | kubectl apply -f -
+  495  linkerd check
+  496  linkerd viz install | kubectl apply -f -
+  497  linkerd viz check
+  498  cd ..
+  499  cd service
+  500  cd services
+  501  ll
+  502  kubectl -n kube-system get configmaps coredns -o yaml
+  503  kubectl -n  kube-system get sv
+  504  kubectl -n  kube-system get svc
+  505  kubectl -n kube-system get configmaps
+  506  kubectl -n kube-system edit configmaps coredn
+  507  kubectl -n kube-system edit configmaps coredns
+  508  kubectl -n kube-system get configmaps coredns -o yaml >> coredns-bk.yaml
+  509  ll
+  510  cat coredns-bk.yaml 
+  511  kubectl -n kube-system edit configmaps coredns
+  512  kubectl -n kube-system get configmaps coredns -o yaml
+  513  kubectl get ds -A
+  514  kubectl get deploy -A
+  515  kubectl -n kube-system scale deployment coredns --replicas 0
+  516  kubectl -n kube-system scale deployment coredns --replicas 2
+  517  linkerd viz check
+  518  kubectl -n kube-system edit configmaps coredns
+  519  linkerd viz check
+  520  linkerd viz dashboard &
+  521  kubectl -n linkerd-viz edit deploy web
+  522  kubectl -n linkerd-viz get deploy web -o yaml
+  523  cd ..
+  524  cd service_mesh/
+  525  kubectl -n linkerd-viz get deploy web -o yaml > linkerd_bk.yaml
+  526  kubectl -n linkerd-viz edit deploy web
+  527  kubectl edit svc web -n linked-viz
+  528  kubectl edit svc web -n linkerd-viz
+  529  curl config ifconfig.io
+  530  curl  ifconfig.io
+  531  ip a
+  532  kubectl -n accounting get deploy ../services/nginx-one -o yaml| linkerd inject - | kubectl apply -f -
+  533  kubectl -n accounting get deploy nginx-one -o yaml| linkerd inject - | kubectl apply -f -
+  534  cd ../services
+  535  kubectl -n accounting get deploy nginx-one -o yaml| linkerd inject - | kubectl apply -f -
+  536  kubectl -n accounting get deploy nginx-one
+  537  kubectl start deploy nginx-one
+  538  history > ../service_mesh/lab_11.txt

@@ -1,0 +1,118 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  annotations:
+    deployment.kubernetes.io/revision: "1"
+    kubectl.kubernetes.io/last-applied-configuration: |
+      {"apiVersion":"apps/v1","kind":"Deployment","metadata":{"annotations":{"linkerd.io/created-by":"linkerd/helm stable-2.11.4"},"labels":{"app.kubernetes.io/name":"web","app.kubernetes.io/part-of":"Linkerd","app.kubernetes.io/version":"stable-2.11.4","component":"web","linkerd.io/extension":"viz","namespace":"linkerd-viz"},"name":"web","namespace":"linkerd-viz"},"spec":{"replicas":1,"selector":{"matchLabels":{"component":"web","linkerd.io/extension":"viz","namespace":"linkerd-viz"}},"template":{"metadata":{"annotations":{"linkerd.io/created-by":"linkerd/helm stable-2.11.4"},"labels":{"component":"web","linkerd.io/extension":"viz","namespace":"linkerd-viz"}},"spec":{"containers":[{"args":["-linkerd-metrics-api-addr=metrics-api.linkerd-viz.svc.cluster.local:8085","-cluster-domain=cluster.local","-grafana-addr=grafana.linkerd-viz.svc.cluster.local:3000","-controller-namespace=linkerd","-viz-namespace=linkerd-viz","-log-level=info","-log-format=plain","-enforced-host=^(localhost|127\\.0\\.0\\.1|web\\.linkerd-viz\\.svc\\.cluster\\.local|web\\.linkerd-viz\\.svc|\\[::1\\])(:\\d+)?$","-enable-pprof=false"],"image":"cr.l5d.io/linkerd/web:stable-2.11.4","imagePullPolicy":"IfNotPresent","livenessProbe":{"httpGet":{"path":"/ping","port":9994},"initialDelaySeconds":10},"name":"web","ports":[{"containerPort":8084,"name":"http"},{"containerPort":9994,"name":"admin-http"}],"readinessProbe":{"failureThreshold":7,"httpGet":{"path":"/ready","port":9994}},"resources":null,"securityContext":{"runAsUser":2103}}],"nodeSelector":{"kubernetes.io/os":"linux"},"serviceAccountName":"web"}}}}
+    linkerd.io/created-by: linkerd/helm stable-2.11.4
+  creationTimestamp: "2022-10-13T15:25:35Z"
+  generation: 1
+  labels:
+    app.kubernetes.io/name: web
+    app.kubernetes.io/part-of: Linkerd
+    app.kubernetes.io/version: stable-2.11.4
+    component: web
+    linkerd.io/extension: viz
+    namespace: linkerd-viz
+  name: web
+  namespace: linkerd-viz
+  resourceVersion: "85948"
+  uid: 8ec6f5bd-48ea-4058-96d6-887db520c750
+spec:
+  progressDeadlineSeconds: 600
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      component: web
+      linkerd.io/extension: viz
+      namespace: linkerd-viz
+  strategy:
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+    type: RollingUpdate
+  template:
+    metadata:
+      annotations:
+        linkerd.io/created-by: linkerd/helm stable-2.11.4
+      creationTimestamp: null
+      labels:
+        component: web
+        linkerd.io/extension: viz
+        namespace: linkerd-viz
+    spec:
+      containers:
+      - args:
+        - -linkerd-metrics-api-addr=metrics-api.linkerd-viz.svc.cluster.local:8085
+        - -cluster-domain=cluster.local
+        - -grafana-addr=grafana.linkerd-viz.svc.cluster.local:3000
+        - -controller-namespace=linkerd
+        - -viz-namespace=linkerd-viz
+        - -log-level=info
+        - -log-format=plain
+        - -enforced-host=^(localhost|127\.0\.0\.1|web\.linkerd-viz\.svc\.cluster\.local|web\.linkerd-viz\.svc|\[::1\])(:\d+)?$
+        - -enable-pprof=false
+        image: cr.l5d.io/linkerd/web:stable-2.11.4
+        imagePullPolicy: IfNotPresent
+        livenessProbe:
+          failureThreshold: 3
+          httpGet:
+            path: /ping
+            port: 9994
+            scheme: HTTP
+          initialDelaySeconds: 10
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 1
+        name: web
+        ports:
+        - containerPort: 8084
+          name: http
+          protocol: TCP
+        - containerPort: 9994
+          name: admin-http
+          protocol: TCP
+        readinessProbe:
+          failureThreshold: 7
+          httpGet:
+            path: /ready
+            port: 9994
+            scheme: HTTP
+          periodSeconds: 10
+          successThreshold: 1
+          timeoutSeconds: 1
+        resources: {}
+        securityContext:
+          runAsUser: 2103
+        terminationMessagePath: /dev/termination-log
+        terminationMessagePolicy: File
+      dnsPolicy: ClusterFirst
+      nodeSelector:
+        kubernetes.io/os: linux
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      serviceAccount: web
+      serviceAccountName: web
+      terminationGracePeriodSeconds: 30
+status:
+  availableReplicas: 1
+  conditions:
+  - lastTransitionTime: "2022-10-13T15:29:11Z"
+    lastUpdateTime: "2022-10-13T15:29:11Z"
+    message: Deployment has minimum availability.
+    reason: MinimumReplicasAvailable
+    status: "True"
+    type: Available
+  - lastTransitionTime: "2022-10-13T15:25:36Z"
+    lastUpdateTime: "2022-10-13T15:29:11Z"
+    message: ReplicaSet "web-86bfb48c8c" has successfully progressed.
+    reason: NewReplicaSetAvailable
+    status: "True"
+    type: Progressing
+  observedGeneration: 1
+  readyReplicas: 1
+  replicas: 1
+  updatedReplicas: 1

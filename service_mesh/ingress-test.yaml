@@ -1,0 +1,35 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+  creationTimestamp: "2022-10-20T16:03:20Z"
+  generation: 2
+  name: ingress-test
+  namespace: default
+  resourceVersion: "160211"
+  uid: 4e6d0b4e-7be6-491a-81d4-59ccf02b3c02
+spec:
+  rules:
+  - host: internal.org
+    http:
+      paths:
+      - backend:
+          service:
+            name: web-one
+            port:
+              number: 80
+        path: /
+        pathType: ImplementationSpecific
+  - host: www.external.com
+    http:
+      paths:
+      - backend:
+          service:
+            name: web-two
+            port:
+              number: 80
+        path: /
+        pathType: ImplementationSpecific
+status:
+  loadBalancer: {}

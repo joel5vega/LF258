@@ -5,5 +5,5 @@ metadata:
 spec:
   containers:
   - name: mountain-region
-    image: nginx:1.11-apline
+    image: nginx:1.11-alpine
 

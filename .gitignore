@@ -5,4 +5,4 @@
 /.ssh/*
 /.cache/*
 /.kube/*
-
+/10-helm/*

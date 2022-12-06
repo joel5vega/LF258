@@ -33,6 +33,8 @@ spec:
         volumeMounts:
           - name: specialofday
             mountPath: /food/
+          - name: reviewvol
+            mountPath: /newvol/
         resources: {}
         terminationMessagePath: /dev/termination-log
         terminationMessagePolicy: File
@@ -45,3 +47,7 @@ spec:
         - name: specialofday
           secret:
             secretName: specialofday
+        - name: reviewvol
+          persistentVolumeClaim:
+            claimName: reviewvol
+

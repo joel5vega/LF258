@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: "24"
+  name: "24"
+spec:
+  replicas: 3 
+  selector:
+    matchLabels:
+      app: "24"
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: "24"
+    spec:
+      containers:
+      - image: busybox
+        name: backend
+      - image: httpd
+        name: db1
+      - image: db2
+        name: nginx
